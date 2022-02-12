@@ -21,7 +21,7 @@ function Home(props) {
     }
 
     return (
-        <div>
+        <div className="page">
             <h1>Class Tracker!</h1>
             <form onSubmit={handleSubmit}>
                 <label>Add Favorite Class</label>
