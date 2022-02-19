@@ -1,10 +1,27 @@
-.class {
-    position: relative;
-    left: 47%;
-    top: 40px;
-    width: 100px;
-    height: 50px;
-    background-color:palevioletred;
+.block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 230px;
+    width: 500px;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 25px;
+    background-color:palevioletred; 
+}
+
+.block > #class {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
     font-family: Garamond, serif;
-    font-size: 20px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 15px;
 }
